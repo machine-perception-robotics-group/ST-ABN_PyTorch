@@ -68,7 +68,7 @@ evaluation = dict(interval=10)  # This evaluate the model per 10 epoch.
 python tools/train_recognizer.py ${CONFIG_FILE}
 
 #Example of run command is as follows:
-python tools/train_recognizer.py config_files/sthv1/st_abn_32.py --work_dir checkpoints/results --gpus 1
+python tools/train_recognizer.py config_files/sthv1/st_abn_32.py --validate --work_dir checkpoints/results --gpus 1
 ```
 If you want to specify the working directory in the command, you can add an argument `--work_dir ${YOUR_WORK_DIR}`.
 
