@@ -112,7 +112,7 @@ Attention mapを可視化する際は，TSN3D.pyの`def forward_test()`におい
 学習時はperception branchの出力である`rx`以外はコメントアウトしてください．-->
 
 Examples:
-Assume that you have already downloaded the checkpoints to the directory `ckpt/`.
+Assume that you have already saved the checkpoints to the directory `checkpoints/`.
 
 1. Test model with non-distributed evaluation mode on 8 GPUs
 ```
