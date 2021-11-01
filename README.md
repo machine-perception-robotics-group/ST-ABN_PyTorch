@@ -7,6 +7,20 @@ Writer : Masahiro Mitsuhara
 This repository is PyTorch implementation of Spatio-Temporal Attention Branch Network.
 Our source code is based on [TPN](https://github.com/decisionforce/TPN) and [MMAction](https://github.com/open-mmlab/mmaction) implemented with PyTorch. We are grateful for the author!
 
+[[arXiv papar](https://arxiv.org/abs/2110.15574#)]
+
+## Citation
+If you find this repository is useful, please cite the following reference.
+
+```
+@article{Mitsuhara2021,
+ author={Masahiro Mitsuhara and Tsubasa Hirakawa and Takayoshi Yamashita and Hironobu Fujiyoshi},
+ title={ST-ABN: Visual Explanation Taking into Account Spatio-temporal Information for Video Recognition},
+ journal={arXiv preprint, arXiv:2110.15574},
+ year={2021}
+}
+```
+
 ## Enviroment
 Our source code corresponds to the latest version of PyTorch.
 Requirements of PyTorch version are as follows:
